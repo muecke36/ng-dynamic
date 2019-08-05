@@ -5,7 +5,7 @@ import { DynamicComponentOptions } from './options';
 
 export function createJitCompiler(options?: CompilerOptions[]) {
     options = options || [];
-    return new JitCompilerFactory([{ useDebug: false, useJit: true }]).createCompiler(options);
+    return new JitCompilerFactory().createCompiler(options);
 }
 
 /**
