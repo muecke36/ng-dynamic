@@ -4,8 +4,6 @@
 /.vscode/
 /.idea/
 npm-debug.log
-index.js
-src/**/*.js
 index.d.ts
 src/**/*.d.ts
 **/*.metadata.json
